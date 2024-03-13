@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Owen Quin's</h1>
+      <h2>Portfolio</h2>
+      <nav>
+
+        <ul id="navbar">
+
+          <li class="navlink">
+            <a href="index.html" >Home</a>
+          </li>
+
+          <li class="navlink">
+            <a href="resume.html">Resume</a>
+          </li>
+
+          <li class="navlink">
+            <a href="letters.html">Recommendation Letters</a>
+          </li>
+
+          <li class = "navlink">
+            <a href="certificates.html"  >Awards & Certificates</a>
+          </li>
+
+          <li class="dropdown navlink">
+
+            <div class="dropbtn navLink" id = "drp" onmouseover="drphover(event)" onmouseout="drpnohover(event)">Highschool Work ⮟</div>
+
+            <div class="dropdown-content content-fade" 
+              onmouseover="drphover(event)" 
+              onmouseout="drpnohover(event)" >
+
+                <a href="freshman.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Freshman Year</a>
+
+                <a href="sophmore.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Sophmore Year</a>
+
+                <a href="junior.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Junior Year</a>
+
+              <a href="senior.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Senior Year</a>
+              </div>
+          </li>
+
+          <li class = "navlink">
+            <a href="reflection.html">Highshcool Reflection</a>
+          </li>
+
+          <li class = "navlink" id = "onPage">
+            <a href="futurePlanning.html">Future Planning</a>
+          </li>
+
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+      <iframe src="pdfs/future.pdf"  class = "future"></iframe>
+
+    </main>
+
+    <footer>
+      <p>Contact me Here:</p>
+
+      <ul id = "contactList">
+        <li>Phone: +1(617)-890-9034</li>
+        <li>Email: quinof@oldcolony.info</li>
+        <li>School Address: 476 North Avenue, Rochester, Massachusetts, 02770</li>
+      </ul>
+
+      <p>Copyright &copy; 2023 Owen Quin</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
