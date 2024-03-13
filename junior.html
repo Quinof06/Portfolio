@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quin's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h2>Junior Year</h2>
+
+    <nav>
+
+      <ul id="navbar">
+
+        <li class="navlink">
+          <a href="index.html"">Home</a>
+        </li>
+
+        <li class="navlink">
+          <a href="resume.html">Resume</a>
+        </li>
+
+        <li class="navlink">
+          <a href="letters.html">Recommendation Letters</a>
+        </li>
+
+        <li class = "navlink">
+          <a href="certificates.html"  >Awards & Certificates</a>
+        </li>
+
+        <li class="dropdown navlink">
+
+          <div class="dropbtn navLink" id = "drp" onmouseover="drphover(event)" onmouseout="drpnohover(event)">Highschool Work ⮟</div>
+
+          <div class="dropdown-content content-fade" 
+            onmouseover="drphover(event)" 
+            onmouseout="drpnohover(event)" >
+
+              <a href="freshman.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Freshman Year</a>
+
+              <a href="sophmore.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Sophmore Year</a>
+
+              <a href="junior.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Junior Year</a>
+
+            <a href="senior.html" 
+              onmouseover="drphover(event)" 
+              onmouseout="drpnohover(event)"
+              >Senior Year</a>
+            </div>
+        </li>
+
+        <li class = "navlink">
+          <a href="reflection.html">Highshcool Reflection</a>
+        </li>
+
+        <li class = "navlink">
+          <a href="futurePlanning.html">Future Planning</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main class="yearMain">
+
+    <div class="tab">
+
+      <button class="tablinks" onclick="openCity(event, 'Academics')" id="defaultOpen">Academics Work</button>
+      <button class="tablinks" onclick="openCity(event, 'Shop')">Shop Work</button>
+      <button class="tablinks" onclick="openCity(event, 'Related')">Related Work</button>
+      <button class="tablinks" onclick="openCity(event, 'ddm')">DDM</button>
+    </div>
+
+    <div id="Academics" class="tabcontent">
+      <h3>Academics Work</h3>
+
+      <h4>Essay</h4>
+      <div class=iframediv>
+        <iframe
+          src="https://docs.google.com/document/d/e/2PACX-1vQu9pFx-4IIhIR3PwQTwbqQqcocSCT3ls83LZVoNl7u4hi3VlSgmUCZ5UkU28USO2q4Ya93lfIouyTy/pub?embedded=true"
+          class="workIframe"></iframe>
+        <h4>Slide show</h4>
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vRl18Ip8pSvJrgGBzU-sHEoY7BUHZ-lq1Wjk9h6y-EYg82GvaL5s2Gt_UhQngTwVr0QDVOXfsCYybHf/embed?start=false&loop=true&delayms=10000"
+          class="slideshowIframe"></iframe>
+      </div>
+
+    </div>
+
+    <div id="Shop" class="tabcontent">
+      <h3>Shop Work</h3>
+
+      <p class="workPara">This assignment was a final assignment after learning about arrayLists. We had to create
+        arraylists to store the data relevant to that game and also be able to access and edit that data. We used 2D
+        array lists to create the grid that the board would be on. In the arrays we stored objects we created that
+        held all of the data for that location on the grid. To access and edit these I gave them a nested for loop so
+        go through the arraylist and find the cell in the correct location.
+      </p>
+      <p class="workPara"> This year was my first year working in java or any other object oriented programming
+        language. At the start of the year I struggled with the concepts of classes and constructors. By the end of
+        the year I was comfortable enough with these concepts that I was able to make this battleship game. In the
+        assessment I also used inheritance. When I first learned inheritance I struggled with it, but during this
+        assignment I made use of them for the cells.
+      </p>
+      
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vSFtARWJVw9_4BbE6xlqj-ABFpsm0-G58Lsxmfnumj3wvsAL6iloRbcs-93Mq_qI0KmFnE1G5meqrHF/pub?embedded=true"
+        class="workIframe"></iframe>
+      <div class="workText">
+        
+        <p>Click <a href="BattleShip.zip" download="BattleShip.zip">here</a> to download</p>
+      </div>
+    </div>
+
+    <div id="Related" class="tabcontent">
+      <h3>Related Work</h3>
+
+      <p class= "workPara">
+        This project is a 2D platformer That I made in my related game design class.  The objective of this assignment was to learn and implement the different aspects of platform games. To complete this assignment I had to follow along with my teacher's demonstrations as well as make my own creative decisions. This was a challenging assignment because of the amount of new things being taught to complete.  I enjoyed the more creative parts of this assignment and feel once I got the hang of the new concepts I started to excel.
+      </p>
+      <p class="workPara">This year was my first year working with Unity.  In relation, I learned about many different aspects of game design. This project introduced many new challenges and concepts.  Before this project, I only knew the basics of Unity. I could control the movement of spite, detect collisions, and other simple concepts like those.
+      </p>
+      <p class = "workPara">
+        From this project, I learned many different and unique concepts important to game design.  The first thing I learned was how to make animations for the sprites.  I also learned how to use a tilemap to make the background for the game. An important aspect of this assignment was designing a playable and intuitive first level.  
+      </p>
+
+      <img src="Images/junrel1.png" alt="">
+      <video width="320" height="240" controls>
+        <source src="Images/junrel2.mp4" type="video/mp4">
+        <source src="Images/junrel2.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vQc3TsT46OjXeiaMhM42d4yUMGeEGvd7V8cMYyoMlg7ATK4-i_DT6fHE1vCabCPGfNMyMcoOx6MpHDK/pub?embedded=true" class = "workIframe"></iframe>
+
+    </div>
+
+    <div id="ddm" class="tabcontent">
+      <h3>DDM</h3>
+
+      <p class="workPara"> For the DDM we had to implement many things that we learned throughout the year. The first
+          thing I had to do was make a utils class. This class was made to read from the file and add all of the file's
+          information to an object. The utils class creates an object for each line in the file.
+          After the Utils class was completed I had to make the Crossword class. This class was used to create a crossword
+          puzzle based off of the information in the file. This class only had a constructor and a method for printing.
+          The constructor made a 2d array of Square objects that were assigned a character for what they should display.
+          I also made the Main class. In this class I made a method to create a 2d array of booleans to pass into the
+          Crossword constructor. I then also made a methods for getting all clues or specific clues. In these methods I
+          used input validation to made sure it would not crash my program.
+          Then i made a method for user guesses. This method asks the user for the clue that they would like to make a
+          guess for. Then if they selected a valid clue it asks them for their guess. I then make sure that their guess is
+          correct. If it is correct then the crossword display updates. Otherwise it checks if the guess is the same
+          length and would interfere with the previous guesses that are already being displayed. if it does and the length
+          is the same then the display will update. If not nothing happens.
+        </p>
+        <p>Click <a href="OQ_OldColonyCrosswordPuzzle.zip" download="OQ_OldColonyCrosswordPuzzle.zip">here</a> to download
+        </p>
+
+      
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vSeBem_StBxpGftumLgWPPt5ISnD6ViVbtWx-USxdJZHFcYm8Jz3NqSqX9C-vJqX6uvSmyiIcx2pQP-/pub?embedded=true"
+        class="workIframe"></iframe>
+      </div>
+
+  </main>
+
+  <footer>
+    <p>Contact me Here:</p>
+
+    <ul id="contactList">
+      <li>Phone: +1(617)-890-9034</li>
+      <li>Email: quinof@oldcolony.info</li>
+      <li>School Address: 476 North Avenue, Rochester, Massachusetts, 02770</li>
+    </ul>
+
+    <p>Copyright &copy; 2023 Owen Quin</p>
+  </footer>
+  <script src="script.js"></script>
+</body>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quin's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h2>Senior Year</h2>
+
+    <nav>
+
+      <ul id="navbar">
+
+        <li class="navlink">
+          <a href="index.html" id = "onPage">Home</a>
+        </li>
+
+        <li class="navlink">
+          <a href="resume.html">Resume</a>
+        </li>
+
+        <li class="navlink">
+          <a href="letters.html">Recommendation Letters</a>
+        </li>
+
+        <li class = "navlink">
+          <a href="certificates.html"  >Awards & Certificates</a>
+        </li>
+
+        <li class="dropdown navlink">
+
+          <div class="dropbtn navLink" id = "drp" onmouseover="drphover(event)" onmouseout="drpnohover(event)">Highschool Work ⮟</div>
+
+          <div class="dropdown-content content-fade" 
+            onmouseover="drphover(event)" 
+            onmouseout="drpnohover(event)" >
+
+              <a href="freshman.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Freshman Year</a>
+
+              <a href="sophmore.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Sophmore Year</a>
+
+              <a href="junior.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Junior Year</a>
+
+            <a href="senior.html" 
+              onmouseover="drphover(event)" 
+              onmouseout="drpnohover(event)"
+              >Senior Year</a>
+            </div>
+        </li>
+
+        <li class = "navlink">
+          <a href="reflection.html">Highshcool Reflection</a>
+        </li>
+
+        <li class = "navlink">
+          <a href="futurePlanning.html">Future Planning</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main class="yearMain">
+
+    <div class="tab">
+
+      <button class="tablinks" onclick="openCity(event, 'Academics')" id="defaultOpen">Academics Work</button>
+      <button class="tablinks" onclick="openCity(event, 'Shop')">Shop Work</button>
+      <button class="tablinks" onclick="openCity(event, 'Related')">Related Work</button>
+      <button class="tablinks" onclick="openCity(event, 'ddm')">DDM</button>
+    </div>
+
+    <div id="Academics" class="tabcontent">
+      <h3>Academics Work</h3>
+      <h4>Essay</h4>
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vS4P-Shdk6mNxlGqhpm6czMZndHz3BD2XM8IaOm7APxuTweyG5sCV2kFrXQm-kEg8guA73GHMucFLhr/pub?embedded=true" class="workIframe"></iframe>
+
+      <h4>Essay</h4>
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vSknm-pQn0QlScsGTBp8BD5BNQ0oZp3tKRV-cIpLtrWZD82kuTsAIOkeRRuJS_Qw1bl_E8B8RW49kVw/pub?embedded=true" class = "workIframe"></iframe>
+    </div>
+
+    <div id="Shop" class="tabcontent">
+      <h3>Shop Work</h3>
+      <video width="80%" height="" autoplay>
+        <source src="Images/seniorwork.mp4" type="video/mp4">
+        <source src="Images/seniorwork.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYdMPOa9mUC4gnpFMwoEwTEY7hwdhhRyEq_LMIVYAz5TSYgLd_A6UyNN3kj7chQ1-LZ9mmbOjW_wy7/pub?embedded=true" class = "workIframe"> </iframe>
+    </div>
+
+    
+    <div id="Related" class="tabcontent">
+      <h3>Related Work</h3>
+    </div>
+
+    <div id="ddm" class="tabcontent">
+      <h3>DDM</h3>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Contact me Here:</p>
+
+    <ul id="contactList">
+      <li>Phone: +1(617)-890-9034</li>
+      <li>Email: quinof@oldcolony.info</li>
+      <li>School Address: 476 North Avenue, Rochester, Massachusetts, 02770</li>
+    </ul>
+
+    <p>Copyright &copy; 2023 Owen Quin</p>
+  </footer>
+  <script src="script.js"></script>
+</body>

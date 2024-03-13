@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+
+  </head>
+
+  <body>
+    <header>
+
+      <h2>Sophmore Year</h2>
+      
+      <nav>
+
+        <ul id="navbar">
+
+          <li class="navlink">
+            <a href="index.html" id = "onPage">Home</a>
+          </li>
+
+          <li class="navlink">
+            <a href="resume.html">Resume</a>
+          </li>
+
+          <li class="navlink">
+            <a href="letters.html">Recommendation Letters</a>
+          </li>
+
+          <li class = "navlink">
+            <a href="certificates.html"  >Awards & Certificates</a>
+          </li>
+
+          <li class="dropdown navlink">
+
+            <div class="dropbtn navLink" id = "drp" onmouseover="drphover(event)" onmouseout="drpnohover(event)">Highschool Work ⮟</div>
+
+            <div class="dropdown-content content-fade" 
+              onmouseover="drphover(event)" 
+              onmouseout="drpnohover(event)" >
+
+                <a href="freshman.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Freshman Year</a>
+
+                <a href="sophmore.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Sophmore Year</a>
+
+                <a href="junior.html" 
+                  onmouseover="drphover(event)" 
+                  onmouseout="drpnohover(event)"
+                  >Junior Year</a>
+
+              <a href="senior.html" 
+                onmouseover="drphover(event)" 
+                onmouseout="drpnohover(event)"
+                >Senior Year</a>
+              </div>
+          </li>
+
+          <li class = "navlink">
+            <a href="reflection.html">Highshcool Reflection</a>
+          </li>
+
+          <li class = "navlink">
+            <a href="futurePlanning.html">Future Planning</a>
+          </li>
+
+        </ul>
+
+      </nav>
+      
+    </header>
+
+    <main class = "yearMain">
+      <div class="tab">
+        
+        <button class="tablinks" onclick="openCity(event, 'Academics')" id="defaultOpen">Academics Work</button>
+        <button class="tablinks" onclick="openCity(event, 'Shop')">Shop Work</button>
+        <button class="tablinks" onclick="openCity(event, 'Related')">Related Work</button>
+        <button class="tablinks" onclick="openCity(event, 'ddm')">DDM</button>
+        
+      </div>
+
+      <div id="Academics" class="tabcontent">
+        
+        <h3>Academics Work</h3>
+        <h4>Essay</h4>
+        <img src="Images/acawork2.png" alt=""class="docWorkImg">
+        <h4>Worksheet</h4>
+        <img src="Images/acawork3.png" alt=""class="docWorkImg">
+        
+      </div>
+
+      <div id="Shop" class="tabcontent">
+        
+        <h3>Shop Work</h3> 
+        
+        <div class = "imgWithPara">
+          
+          <div class = "workText">
+            
+            <p class="workPara">The purpose of the app is to quiz the user on their knowledge of music lyrics. To answer the question type into the text box next to the answer button and then hit the answer button.  Once pressed the app will tell if you were correct or not.  To get a new question hit the next button which will display and read the next question.  One can also hit the random button to get a new question in a random order. The final way to get a new question is to type a keyword into the text box next to the search button and press the search button. The input to the app is typing in the text boxes and pressing the buttons.  The output was the text displaying “correct” or “incorrect”,  the display on the screen when I switched questions and the text to speech that read the question. 
+            </p>
+            <p class="workPara">The list is an easy place to store data and works like a variable that can call   different values at different times.  Without the list you would have to hard code each question, answer, true or false statement, and pictures into the quiz.  It also makes the program easier to maintain because if you wanted to add more questions all you would have to do is add the right data to the list rather that creating a new piece of code to call all of the new data and replacing code that calls other pieces of data.
+            </p>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vS9Q6EOYGd_-2cvy0Eb9ZhXnbZsE4QKXWDdEcupNliZEXDt90ukIfBRHWvtKYV9tAy6HeJC550LoQ6k/pub?embedded=true" class = "workIframe"></iframe>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <div id="Related" class="tabcontent">
+        
+        <h3>Related Work</h3>
+
+        <div  class = "imgWithPara">
+          
+          <img src="Images/0a.PNG" alt=""class = "imgNextToText">
+          
+          <div class = "workText">
+            <p class="workPara">This lab was a part of a unit about creating solutions and designing IOT systems.  This lab was an introduction to a software called IFTTT.  IFTTT stands for If This Then That.  The software’s purpose  is to set up IOT systems based on decisions.  Using IFTTT involves both designing an IOT system and creating a solution.
+            </p>
+            
+            <p class="workPara">For this lab we first had to set up an IFTTT account through our google account.  We then started the If this then that statement. The if this in the statement was “if tomorrow's forecast calls for rain.”  The then that in the statement was “send me an email.”  After filling out the information for the email you want sent the project was done.  The IFTTT made it so that everytime it rains I get an email telling me that it would rain.
+            </p>
+            
+            <p class="workPara">This lab allowed us to learn about IOT systems.  One of the apps that the IFTTT used was the underground weather app. This acted like a sensor and was the input.  The other app was the gmail app which acted as the output.  The lab also was a foundation for further use of the IFTTT software that we used to build similar IOT systems.
+            </p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <div id="ddm" class="tabcontent">
+        
+        <h3>DDM</h3>
+        
+       
+        
+        <p class="workPara">My app is a clicker app that acts as a way to gather answers from different devices.  It uses a cloud database so the same information can be shared by many devices. The purpose of the app is to allow a teacher to create a question and gather the answers of the students from the class.  I do this by having two different types of devices, the teacher device and the student device.  The student device has two buttons, one to agree and one to disagree.  By pressing the agree or disagree buttons your vote is sent to the database and displayed On the teacher device there is a text box that the teacher can input a new question into that changes the question on the top of all screens. The teacher version also has a reset button that removes all of the answers to the poll.
+        </p>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTrC-NQKj2cFDei07f1DCu5pR6tVGAseMo2j9aD7YG-Gohi1JWsCRZXn9eu-X8r8zGnlashDEWMD4RA/pub?embedded=true" class = "workIframe"></iframe>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Contact me Here:</p>
+
+      <ul id = "contactList">
+        <li>Phone: +1(617)-890-9034</li>
+        <li>Email: quinof@oldcolony.info</li>
+        <li>School Address: 476 North Avenue, Rochester, Massachusetts, 02770</li>
+      </ul>
+
+      <p>Copyright &copy; 2023 Owen Quin</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
